@@ -1,10 +1,7 @@
 public class U1 extends Rocket {
 
-    int chanceOfLaunchExplosion;
-    int chanceOfLandingCrash;
 
-
-    U1(){
+    U1() {
         name = "U1";
         cost = 100000000; //$
         weight = 10000; // kg = 10T
@@ -13,7 +10,8 @@ public class U1 extends Rocket {
         chanceOfLandingCrash = 1;
         cargoLimit = maxWeight - weight;
     }
-
+}
+/*
     @Override
     public boolean launch() {
         float launchFailureRate = (chanceOfLaunchExplosion * cargoCarried / (float) cargoLimit);
@@ -30,3 +28,4 @@ public class U1 extends Rocket {
         return result;    }
 
 }
+*/

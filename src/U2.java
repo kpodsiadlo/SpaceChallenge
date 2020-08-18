@@ -4,7 +4,7 @@ public class U2 extends Rocket {
     int chanceOfLandingCrash;
 
 
-    U2(){
+    U2() {
         name = "U2";
         cost = 120000000; //$
         weight = 18000; // kg = 18T
@@ -13,7 +13,8 @@ public class U2 extends Rocket {
         chanceOfLandingCrash = 8;
         cargoLimit = maxWeight - weight;
     }
-
+}
+/*
     @Override
     public boolean launch() {
         float launchFailureRate = (chanceOfLaunchExplosion * cargoCarried / (float) cargoLimit);
@@ -31,3 +32,5 @@ public class U2 extends Rocket {
 
 
 }
+
+ */
